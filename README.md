@@ -26,8 +26,13 @@ src/styles/components/
 
 <br />
 
-There is a Figma design file here, that contains the CSS code info.
-You will have to create a free account to view it. Figma is a very popular design file tool, it's good to know it!
+This Penpot design file shows what the component should look like.
+You will have to create a free account to view it.
+
+The design file is also available as a PDF in the project's root "Puzzle 1 Design File".
+
+[Penpot Design File](https://design.penpot.app/#/view/af2058fc-4f53-80f4-8004-09c9416061af?page-id=af2058fc-4f53-80f4-8004-09c9416061b0&section=interactions&index=0&share-id=9d19625d-7d4c-80ec-8004-09d485995ea5 "Penpot File")
+
 
 
 <b>It does not have to be perfect, but it does have to look something like that design!</b>
