@@ -1,4 +1,5 @@
 import styles from '../styles/pages/Home.module.scss';
+import Newspaper from '../components/Newspaper.js';
 
 const Home = () => {
 
@@ -7,7 +8,7 @@ const Home = () => {
         <div className={styles.home}>
             <h2 className={styles.title}>Breaking World News...</h2>
             <br />
-            <p>Add your component here...</p>
+            <Newspaper />
         </div>
     </>
   );

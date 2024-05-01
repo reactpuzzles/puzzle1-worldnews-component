@@ -1,0 +1,124 @@
+.newsContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    .newsHeader {
+        height: auto;
+        width: 60vw;
+    }
+
+    .story{
+        margin-top: 20px;
+        width: 60vw;
+        
+        .headline{
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 1.2em;
+            padding: 20px 0px;
+        }
+
+        .leadingPic {
+            width: 100%;
+            height: auto;
+        }
+
+        .text {
+            font-size: 36px;
+            text-align: justify;
+            padding: 20px 0px;
+            line-height: 1.2em;
+        }
+    }
+}
+
+// Medium Desktop
+@media (max-width: 1350px) {
+    .newsContainer {
+
+        .story{
+            .headline{
+                font-size: 45px;
+            }
+
+            .text{
+                font-size: 30px;
+            }
+        }
+    }
+}
+  
+// Small Desktop
+@media (max-width: 1024px) {
+    .newsContainer {
+
+        .story{
+            .headline{
+                font-size: 35px;
+            }
+
+            .text{
+                font-size: 25px;
+            }
+        }
+    }
+}
+  
+// Tablets Landscape
+@media (max-width: 801px) {
+    .newsContainer {
+
+        .story{
+            .headline{
+                font-size: 25px;
+                padding: 10px 0px;
+            }
+
+            .text{
+                font-size: 20px;
+                padding: 10px 0px;
+            }
+        }
+    }
+}
+
+// Tablets Portrait
+@media (max-width: 600px) {
+    .newsContainer {
+
+        .story{
+            .headline{
+                font-size: 20px;
+                padding: 10px 0px;
+            }
+
+            .text{
+                font-size: 18px;
+                padding: 10px 0px;
+            }
+        }
+    }
+}
+
+// Phones
+@media (max-width: 450px) {
+    .newsContainer {
+
+        .story{
+            .headline{
+                font-size: 18px;
+                padding: 10px 0px;
+            }
+
+            .text{
+                font-size: 14px;
+                padding: 10px 0px;
+            }
+        }
+    }
+}
